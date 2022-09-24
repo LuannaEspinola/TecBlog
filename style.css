@@ -1,0 +1,142 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+header {
+	background: #70FF52;
+	width: 100%;
+	padding: 35px 0px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+header h1 {
+	font-size: 45px;
+	position: relative;
+	bottom: 10px;
+}
+
+.blog {
+	color: white;
+}
+
+
+a {
+	position: relative;
+	top: 5px;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+header a:hover {
+	background: antiquewhite;
+	color: #70FF52;
+}
+
+.postagem {
+	max-width: 40%;
+	margin-left: 20%;
+	background-color: whitesmoke;
+	padding: 20px;
+	margin-bottom: 10px;
+	height: 34em;
+}
+
+
+.postagem img {
+	width: 100%;
+	position: relative;
+	top: 12px;
+}
+
+.postagem h3 {
+	color: #70FF52;
+}
+
+.postagem_text {
+	position: relative;
+	top: 20px;
+}
+
+.postagem_recente {
+	max-width: 18%;
+	font-size: 13px;
+	position: absolute;
+	top: 26.5%;
+	right: 17%;
+	background-color: whitesmoke;
+	height: 26%;
+}
+
+.postagem_recente h4 {
+	background-color: darkgray;
+	font-size: 20px;
+	color: gray;
+	padding: 5px;
+	margin: 17px 10px 5px 10px;
+}
+
+.postagem_recente p {
+	margin: 2px 14px -5px 14px;
+	font-size: 13px;
+}
+
+.postagem_recente a {
+	margin: 0px 15px;
+	color: #70FF52;
+	font-size: 12px;
+}
+
+.postagem_recente a:hover {
+	color: limegreen;
+}
+
+.postagem_recente hr {
+	margin: -5px 10px 0px 10px;
+}
+
+.categorias {
+	position: absolute;
+	top: 0;
+	background: whitesmoke ;
+	right: 17%;
+	top: 55.5%;
+	width: 18%;
+	height: 150px;
+}
+
+.categorias h4 {
+	background-color: darkgray;
+	font-size: 20px;
+	color: gray;
+	padding: 5px;
+	margin: 17px 10px 5px 10px;
+}
+
+.categorias a {
+	top: -5px;
+	color: #70FF52;
+	font-size: 12px;
+	margin: 0px 1px;
+}
+
+.categorias a:hover {
+	color: limegreen;
+}
+
+
+footer {
+	font-weight: bold;
+	text-align: center;
+}
+
